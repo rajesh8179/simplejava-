@@ -1,5 +1,5 @@
 node {
-stage  ('CM Checkout')
+stage  ('SCM Checkout')
 {git 'https://github.com/rajesh8179/simplejava-'
 }stage('Compile-package')
 {
